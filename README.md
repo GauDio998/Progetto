@@ -30,5 +30,49 @@ Definisce come dovrebbe apparire l'ordine all'interno dell'applicazione.
 ## user.js/models
 Definisce come dovrebbe apparire l'utente all'interno dell'applicazione.
 
+# Documentazione
+## esempi
+### Products
+
+-GET(tutti i prodotti): URL -> https://localhost:3000/products
+![GetProdotti](screen/GetProdotti.png)
+
+-GET(singolo prodotto): URL -> https://localhost:3000/products/+id
+![GetSingoloProdotto](screen/GetSingoloProdotto.png)
+
+-POST: URL -> https://localhost:3000/products
+![PostProdotto](screen/PostProdotto.png)
+
+-PATCH: URL -> https://localhost:3000/products/+id
+![PatchProdotto](screen/PatchProdotto.png)
+
+-DELETE: URL -> https://localhost:3000/products/+id
+![DeleteProdotto](screen/DeleteProdotto.png)
+
+### Orders
+
+-GET(tutti gli ordini): URL -> https://localhost:3000/orders
+![GetOrdine](screen/GetOrdini.png)
+
+-GET(singolo ordine): URL -> https://localhost:3000/orders/+id
+![GetSingoloOrdine](screen/GetSingoloOrdine.png)
+
+-POST: URL -> https://localhost:3000/orders
+![PostOrdine](screen/PostOrdine.png)
+
+-DELETE: URL -> https://localhost:3000/orders/+id
+![DeleteOrdine](screen/DeleteOrdine.png)
+
+### Users
+
+POST(creazione utente): URL -> https://localhost:3000/user/signup
+![CreazioneUtente](screen/CreazioneUtente.png)
+
+POST(login utente): URL -> https://localhost:3000/user/login
+![LoginUtente](screen/LoginUtente.png)
+
+
+
+
 
 
